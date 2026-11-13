@@ -1,0 +1,25 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# macOS
+.DS_Store
+
+# Logs and runtime files
+logs/
+*.log
+uploads/
+outputs/
+
+# Dataset and model weights (not redistributed)
+crowd-counting-benchmark/datasets/
+*.pth
+*.pth.tar
+
+# Editors and Office
+.idea/
+.vscode/
+~$*
