@@ -1,0 +1,5 @@
+filename,part,scene_category,ground_truth_count,dmcount_predicted,bayesian_predicted,csrnet_predicted,sfanet_predicted
+IMG_198.jpg,part_B,sparse_perspective,9,11,12,34,11
+IMG_101.jpg,part_A,dense,211,234,249,348,26
+IMG_75.jpg,part_B,sparse_perspective,539,390,388,404,470
+IMG_90.jpg,part_A,dense,2256,1885,1998,2010,3128

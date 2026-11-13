@@ -1,0 +1,18 @@
+{
+  "repeats_per_image": 3,
+  "models_requested": [
+    "CSRNet",
+    "Bayesian",
+    "DM-Count",
+    "SFANet"
+  ],
+  "models_completed": [
+    "CSRNet",
+    "Bayesian",
+    "DM-Count",
+    "SFANet"
+  ],
+  "total_rows": 40,
+  "successful_rows": 40,
+  "failed_rows": 0
+}

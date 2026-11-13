@@ -1,0 +1,37 @@
+Report examples — 4 diverse images from the final 50-image benchmark set
+(picked for a spread of crowd sizes/scenes, not for best or worst results)
+Source: crowd-counting-benchmark/results_final/benchmark_results.csv
+
+IMG_198.jpg  (Part B, sparse street scene)
+  Ground truth: 9
+  DM-Count:     11
+  Bayesian:     12
+  CSRNet:       34
+  SFANet:       11
+
+IMG_101.jpg  (Part A, dense scene)
+  Ground truth: 211
+  DM-Count:     234
+  Bayesian:     249
+  CSRNet:       348
+  SFANet:       26
+
+IMG_75.jpg   (Part B, larger street crowd)
+  Ground truth: 539
+  DM-Count:     390
+  Bayesian:     388
+  CSRNet:       404
+  SFANet:       470
+
+IMG_90.jpg   (Part A, extremely dense scene)
+  Ground truth: 2256
+  DM-Count:     1885
+  Bayesian:     1998
+  CSRNet:       2010
+  SFANet:       3128
+
+Notes:
+- SFANet uses ShanghaiTech Part B (SHB) weights, so its Part A predictions
+  (IMG_101.jpg, IMG_90.jpg) reflect an out-of-domain model, not just a
+  weaker architecture — see the benchmark's "Important limitation" note.
+- Predicted counts are each model's rounded_count for that image.

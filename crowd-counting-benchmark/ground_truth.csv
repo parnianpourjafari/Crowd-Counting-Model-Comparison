@@ -1,0 +1,11 @@
+image_name,part,category,ground_truth_count,original_image_path,selected_image_path,selected_ground_truth_path
+IMG_113.jpg,part_A,dense,66,datasets/ShanghaiTech/part_A_final/test_data/images/IMG_113.jpg,selected_images/part_A/IMG_113.jpg,selected_ground_truth/part_A/GT_IMG_113.mat
+IMG_101.jpg,part_A,dense,211,datasets/ShanghaiTech/part_A_final/test_data/images/IMG_101.jpg,selected_images/part_A/IMG_101.jpg,selected_ground_truth/part_A/GT_IMG_101.mat
+IMG_30.jpg,part_A,dense,307,datasets/ShanghaiTech/part_A_final/test_data/images/IMG_30.jpg,selected_images/part_A/IMG_30.jpg,selected_ground_truth/part_A/GT_IMG_30.mat
+IMG_10.jpg,part_A,dense,502,datasets/ShanghaiTech/part_A_final/test_data/images/IMG_10.jpg,selected_images/part_A/IMG_10.jpg,selected_ground_truth/part_A/GT_IMG_10.mat
+IMG_90.jpg,part_A,dense,2256,datasets/ShanghaiTech/part_A_final/test_data/images/IMG_90.jpg,selected_images/part_A/IMG_90.jpg,selected_ground_truth/part_A/GT_IMG_90.mat
+IMG_198.jpg,part_B,sparse_perspective,9,datasets/ShanghaiTech/part_B_final/test_data/images/IMG_198.jpg,selected_images/part_B/IMG_198.jpg,selected_ground_truth/part_B/GT_IMG_198.mat
+IMG_86.jpg,part_B,sparse_perspective,55,datasets/ShanghaiTech/part_B_final/test_data/images/IMG_86.jpg,selected_images/part_B/IMG_86.jpg,selected_ground_truth/part_B/GT_IMG_86.mat
+IMG_292.jpg,part_B,sparse_perspective,93,datasets/ShanghaiTech/part_B_final/test_data/images/IMG_292.jpg,selected_images/part_B/IMG_292.jpg,selected_ground_truth/part_B/GT_IMG_292.mat
+IMG_155.jpg,part_B,sparse_perspective,167,datasets/ShanghaiTech/part_B_final/test_data/images/IMG_155.jpg,selected_images/part_B/IMG_155.jpg,selected_ground_truth/part_B/GT_IMG_155.mat
+IMG_75.jpg,part_B,sparse_perspective,539,datasets/ShanghaiTech/part_B_final/test_data/images/IMG_75.jpg,selected_images/part_B/IMG_75.jpg,selected_ground_truth/part_B/GT_IMG_75.mat
